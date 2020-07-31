@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
+    crossorigin="anonymous">
+    <title>Chat | Kakao Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar_c">
+            <span class="ststus-bar_time">KT 12:00</span>
+        </div>
+        <div class="status-bar_c">
+            <i class="fab fa-bluetooth-b"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar_battery">67%</span>
+            <i class="fas fa-battery-half"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header_header-c">
+            <a href="index.html" class="header_back-btn">
+                <i class="fas fa-arrow-left fa-2x"></i>
+            </a>
+            <h1 class="header_title">장유선</h1>
+        </div>
+        <div class="header_header-c">
+            <span class="header_icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <div class="header_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main class="chat">
+        <ul class="chat_messages">
+            <span class="chat_timestamp">
+                2020년 8월 1일 토요일
+            </span>
+            <li class="in-message message">
+                <img src="images/ava.jpg" class="g-ava message_ava"/>
+                <div class="message_content">
+                    <span class="message_author">
+                        장유선
+                    </span>
+                    <div class="message_bubble">
+                        ??
+                    </div>
+                </div>
+                <span class="message_timestamp">
+                    1:26
+                </span>
+            </li>
+            <li class="in-message message">
+                <span class="message_timestamp">
+                    6:42
+                </span>
+                <div class="message_content">
+                    <div class="message_bubble">
+                        사진을 보냈습니다.
+                    </div>
+                </div>
+            </li>
+            <li class="in-message message">
+                <img src="images/ava.jpg" class="g-ava message_ava"/>
+                <div class="message_content">
+                    <span class="message_author">
+                        장유선
+                    </span>
+                    <div class="message_bubble">
+                        사진을 보냈습니다.
+                    </div>
+                </div>
+                <span class="message_timestamp">
+                    12:00
+                </span>
+            </li>
+        </ul>
+    </main>
+    <div class="chat_write">
+        <div class="chat_write-c">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat_write-c">
+            <input type="text" class="chat_write-input" />
+        </div>
+        <div class="chat_write-c">
+            <span class="chat_write-icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat_write-icon">
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
